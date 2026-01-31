@@ -1,3 +1,3 @@
 #!/bin/bash
 sudo apt update
-sudo apt-get install -y doxygen
+sudo apt-get install -y simh
