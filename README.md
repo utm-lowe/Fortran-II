@@ -6,7 +6,7 @@ $ i1401
 
 IBM 1401 simulator V3.12-3
 sim> at mt1 fortran.tap
-sim> at cdr hello.f
+sim> at cdr examples/hello.f
 sim> at lpt listing
 LPT: creating new file
 sim> b mt1
@@ -46,3 +46,6 @@ Consult the listing file to see your output.
   can be found at the top of all the programs. Copy this line into your programs,
   and it should generally work. If you want to explore the parameters and play
   with different ones, consult the 1401 specifications manual.
+- VS Code has many extensions which can do syntax highlighting/formatting for
+  Fortran. Be careful with these! They understand *modern* Fortran. They may
+  result in incompatible code with the venerable old version we are using here.
