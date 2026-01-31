@@ -1,0 +1,4 @@
+PARAMI9I
+       PRINT 2
+2      FORMAT (13H HELLO, WOLRD)
+       STOP
