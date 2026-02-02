@@ -1,5 +1,7 @@
 # Running FORTRAN II
-Because the simulator simulates an IBM 1401, you will need to carry out the standard workflow by mounting the tapes and inserting a deck of cards. For example, here is the sequence of actions to run "hello.f"
+Because the simulator simulates an IBM 1401, you will need to carry out the
+standard workflow by mounting the tapes and inserting a deck of cards. For
+example, here is the sequence of actions to run "hello.f"
 
 ```
 $ i1401
@@ -33,7 +35,14 @@ sim> g
 HALT instruction, IS: 4296 (B 4291)
 ```
 
-Consult the listing file to see your output.
+Consult the listing file to see your output. You can also continuously monitor
+your listing file by opening a second terminal window and running the command:
+
+```
+tail -f listing
+```
+
+Then you will see input as it comes off the line printer.
 
 # Some Hints and Tips
 - I recommend that you delete the listing file between runs of the simulator. If
